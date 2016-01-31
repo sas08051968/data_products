@@ -53,3 +53,18 @@ The converter outputs are:
   3. minutes per mile;
   4. miles per hour.
 
+For example: 
+
+
+```r
+minutes <- 3
+seconds <- 0
+velocity <- (1/(minutes*60+seconds))*3600
+velocity
+```
+
+```
+## [1] 20
+```
+
+
